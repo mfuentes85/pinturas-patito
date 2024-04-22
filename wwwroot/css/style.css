@@ -1,0 +1,222 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+body {
+    background-color: rgb(300, 240, 156);
+
+
+}
+
+.navbar {
+    background-color: rgb(400, 196, 7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0%;
+    margin-top: -5px;
+    
+  }
+  .navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-nav li {
+    display: inline;
+    float: unset;
+  }
+  
+  .navbar-nav a {
+    margin:0;
+    color: rgb(114, 73, 70);
+    text-decoration: none;
+    float:inline-start;
+    padding: 10px;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: #ee784a;
+  }
+
+  
+ .Encabezado{
+         display: flexbox;
+         flex:auto;
+         margin-top: 30px;
+         align-content:space-around ;
+}
+
+.store-name{
+    margin-top: -120px;
+}
+.LogoPatito
+{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 40%;
+
+}
+h1{
+    margin-left: 30px;
+    padding: 10 px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 3px 2px orangered;
+    color: rgb(400, 196, 7) ;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+   text-shadow: 2px 3px 2px orangered;
+   color: rgb(400, 196, 7) ;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 3px 2px orangered;
+    color: rgb(400,196,7);
+    margin: 10px;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 1px 5px black;
+    color: rgb(400,196,7);  
+}
+
+#our-products {
+    width: 100%;
+    
+}
+
+.our-products {
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    margin-top: -60px;
+    
+}
+
+.our-products section{
+    display: table-cell;
+    align-items: center;
+    margin: auto;
+    border: 5px;
+}
+
+.cont{
+    background-color: rgb(233, 162, 31);
+    padding: 50px;
+    border: 3px;
+    
+   
+}
+.cont img{
+    margin: 10px;
+    border: 5 px;
+    padding: 5 px;
+    border-radius: 10%;
+    size-adjust:initial;
+    align-items: center;
+}
+
+.about-us {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+
+}
+.location {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+#location-map img{
+    width: 500px;
+    padding-top: 15px;
+}
+
+#contact-form{
+    width: 100% ;
+    
+}
+.contact-form{
+    width: 500px;
+    background-image: url(/images/contacto2.jpeg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color: blue;
+
+}
+
+.contact-form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    padding: 10px;
+    color:goldenrod;
+    text-shadow: 2px 2px 2px orangered;
+    
+}
+
+
+.contact-form input{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.contact-form textarea{
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+
+.form-button{
+    margin: 5px;
+}
+
+
+
+footer{
+    background-color: rgb(400, 196, 7);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255,255,255);
+   
+}
